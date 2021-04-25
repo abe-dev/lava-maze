@@ -7,3 +7,6 @@ tiles.setTilemap(tilemap`level1`)
 tiles.placeOnRandomTile(mySprite, sprites.builtin.field1)
 scene.cameraFollowSprite(mySprite)
 info.startCountdown(10)
+forever(function () {
+    music.playMelody("A C5 G F A E B C ", 362)
+})
